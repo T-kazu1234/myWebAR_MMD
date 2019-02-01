@@ -1,0 +1,23 @@
+
+---使い方（Localshadow との併用方法）---
+
+1.モデルにAlphaEye.fxを適用(デフォルトの「87天羽まどか.fx」から変更)
+
+2.サブセット展開し以下の材質のエフェクトを「87天羽まどか.fx」へ変更
+　・face
+　・fece_NoEdge
+　・fece_NoEdge.001
+　・face_mouth
+　・face_rip 
+　・x_blush_line
+
+3.BaseRT、AlphaRTタブにて以下のサブセットを非表示
+　・hair_edge
+　・hair_inner
+　・hair_outer」
+
+4.AlphaRTタブにて、以下にAlphaMask.fxを適用
+　・eyebrows_edge
+　・eyebrows
+
+
